@@ -21,24 +21,22 @@ The Nav Bar shows links to the furniture page, cart page, the login page and the
 
 ## Furnitures
 - User can browse through the furnitures
-![alt text](https://github.com/JD-Fermin/pandemonium/blob/main/screenshots/channel.png)
-- Members can freely switch between channels within server.
-![alt text](https://github.com/JD-Fermin/pandemonium/blob/main/screenshots/channel.png)
-## Live Chat
-- Messaging within channels is mostly live (still needs page refresh if a just registered user joins)
-- Existing users can edit and delete their messages live.
-![alt text](https://github.com/JD-Fermin/pandemonium/blob/main/screenshots/message.png)
+![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.29.39%20AM.png)
+![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.58%20AM.png)
+- Users can search for the furniture they are looking for.
+![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.30.02%20AM.png)
+
+## Reviews
+- Users can write, edit and leave reviews for a specific furniture
+![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.06.37%20AM.png)
+
 ## Technologies Used
 - Ruby 2.7.2
 - Rails 5.2.6
--  Node v10.13.0 (JavaScript, React, Redux)
+- Node v10.13.0 (JavaScript, React, Redux)
 - Postgresql 14
-- Rails ActionCable (web sockets)
+- AWS S3
 - HTML with SCSS
 
 ## Future Plans
-- implement direct messaging
-- add websockets for server meberships
-- modify the CSS for more similarity
-- implement user update name and delete
-- implement leave server
+- implementing Wishlist
