@@ -22,9 +22,13 @@ The Nav Bar shows links to the furniture page, cart page, the login page and the
 ## Furnitures
 - User can browse through the furnitures
 ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.29.39%20AM.png)
-![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.58%20AM.png)
+![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.10.00%20AM.png)
 - Users can search for the furniture they are looking for.
 ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.30.02%20AM.png)
+
+## Orders
+ - User can add, remove and change the quantity into and out of the cart
+ ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.58%20AM.png)
 
 ## Reviews
 - Users can write, edit and leave reviews for a specific furniture
