@@ -15,7 +15,7 @@ function Dropdown(props) {
   const handleClick = () => setClick(!click); // toogles the click 
 
   const modalSwitch = () => {
-    console.log("menuitem", props)
+    
     switch (props.dropdownType) {
       case 'furnitures':
         return <ul 

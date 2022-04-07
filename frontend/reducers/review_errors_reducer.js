@@ -10,7 +10,7 @@ import {
   from "../actions/review_actions";
 
 const ReviewErrorReducer = (state = {}, action ) => {
-  console.log("reviews reducer", action)
+  
   Object.freeze(state);
   let nextState = Object.assign({}, state)
   switch (action.type) {

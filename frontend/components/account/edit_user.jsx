@@ -49,7 +49,7 @@ class EditUserForm extends React.Component {
         // if (Object.keys(this.state.errors).length === 0) {
         //   this.props.closeModal;
         // }
-        // console.log('return errors', this.props.errors)
+        
       })
 
 

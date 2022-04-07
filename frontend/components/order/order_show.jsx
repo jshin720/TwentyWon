@@ -34,7 +34,7 @@ class OrderShow extends React.Component {
 
     let pennies = Object.values(this.props.orders)
 
-    console.log("orders", pennies)
+  
     return (pennies.map((singleFurniture, i) => (
       <div key={i} id="order-item" >
         <div id="order-furnitures-details" >
@@ -70,7 +70,7 @@ class OrderShow extends React.Component {
     allOrders.map((singleOrder) => (
       total += singleOrder.price * singleOrder.quantity
     ))
-    //  console.log('order total', total)
+    
     return (
       <div id="orders-container">
         <h1 id="order-title">Cart</h1>

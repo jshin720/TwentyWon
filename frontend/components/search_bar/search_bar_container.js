@@ -3,7 +3,7 @@ import { fetchFurnitures } from "../../actions/furniture_actions";
 import SearchBar from "./search_bar";
 
 const mSTP = (state, ownProps) => {
-  console.log('search-container', state)
+  
 
   return({
 

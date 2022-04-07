@@ -101,7 +101,7 @@ class EditReviewForm extends React.Component {
   }
 
   render() {
-    console.log("edit", this.props)
+
     return (
       <div className="edit-review-details">
         <h1>Edit Review</h1>

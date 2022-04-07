@@ -41,7 +41,7 @@ class FurnitureIndex extends React.Component {
     const keywordArr = ['sofa', 'sectional', 'chair', 'table', 'chairs', 'sofas', 'sectionals', 'tables']
 
     if (names.length > 0 && !keywordArr.includes(keyword)) {
-      console.log('keyword', names)
+      
       return (
         <div className="search-result">
           <h1 className="result-number"> {names.length} Search Results </h1>
@@ -106,9 +106,9 @@ class FurnitureIndex extends React.Component {
   render() {
     let furnitureCategory = this.keywordString(this.props.match.url);
     const notKeyword = this.props.match.params.keyword;
-    console.log("furnitures", furnitureCategory);
+    
     const { sofas, sectionals, tables, chairs, furnitures } = this.props
-    console.log("furnitures2", sofas)
+  
 
     if (furnitureCategory === 'sofa' && !notKeyword) {
       return (

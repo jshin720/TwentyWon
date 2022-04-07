@@ -16,8 +16,7 @@ import {
 
 
 const mSTP = (state, ownProps) => { 
-  console.log("container-reviews",ownProps)
-  console.log("state", state)
+  
 
   let furniture
   if (state.entities.furnitures) {

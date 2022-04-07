@@ -18,7 +18,7 @@ class OrderItem extends React.Component {
       quantity: this.props.order.quantity,
       user_id: this.props.order.user_id
     }
-    console.log("orderItem", this.state)
+    
     this.addQuantity = this.addQuantity.bind(this);
     this.subtractQuantity = this.subtractQuantity.bind(this);
   }
@@ -42,7 +42,7 @@ class OrderItem extends React.Component {
   }
 
   render() {
-    console.log("order-item-render", this.state)
+  
     return (
       <div id="quantity-container">
         <p id="furniture-price"> Price: $ {this.state.price * this.state.quantity}.00 </p>

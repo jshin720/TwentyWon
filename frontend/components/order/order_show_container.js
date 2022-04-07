@@ -5,7 +5,7 @@ import OrderShow from './order_show'
 
 
 const mSTP = (state) => {
-  console.log('orders-container', state)
+  
 
   return ({
     currentUser: state.entities.users[state.session.id],

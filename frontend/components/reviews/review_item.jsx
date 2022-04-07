@@ -8,7 +8,7 @@ class ReviewItem extends React.Component {
     this.state = { editing: false }
     this.handleDelete = this.handleDelete.bind(this)
     this.toggleEdit = this.toggleEdit.bind(this)
-    console.log('reviewItem', props)
+    
   }
 
   componentDidMount() {
@@ -45,7 +45,7 @@ class ReviewItem extends React.Component {
   
     // if (this.props.users !== this.props.currentUser.id) return null;
 
-    console.log("reviews-render-index", this.props)
+    
     if (!this.props.users) return null; // if the user is not fetched yet during the cycle return null...---caused an undefined issue for line below
     let reviewer = this.props.users[this.props.review.reviewer_id].first_name; // shows the name of the reviewer
 

@@ -23,7 +23,7 @@ class SearchBar extends React.Component {
   update(e) {
     this.setState({
       keyword: e.target.value
-    }, () => console.log('state', this.state.keyword))
+    })
   };
 
   handleSubmit() {
@@ -60,7 +60,7 @@ class SearchBar extends React.Component {
 
 
   render() {
-    console.log('search', this.props)
+  
     if (this.props.furnitures.length === 0) {
       return null;
     } 

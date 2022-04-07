@@ -191,6 +191,7 @@ se5_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sectional/eli
 se5_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sectional/elias/elias2.png')
 se5_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sectional/elias/elias3.png')
 se5_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sectional/elias/elias4.png')
+se5_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sectional/elias/elias5.png')
 
 
 se5.images.attach(io:se5_0, filename: 'sectional/elias/elias0.webp')
@@ -198,6 +199,7 @@ se5.images.attach(io:se5_1, filename: 'sectional/elias/elias1.webp')
 se5.images.attach(io:se5_2, filename: 'sectional/elias/elias2.png')
 se5.images.attach(io:se5_3, filename: 'sectional/elias/elias3.png')
 se5.images.attach(io:se5_4, filename: 'sectional/elias/elias4.png')
+se5.images.attach(io:se5_5, filename: 'sectional/elias/elias5.png')
 
 
 

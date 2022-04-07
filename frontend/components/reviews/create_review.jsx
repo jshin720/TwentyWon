@@ -43,10 +43,10 @@ class CreateReviewForm extends React.Component {
     e.preventDefault()
     this.props.createReview(this.state)
       .then(res => {
-        console.log("handlesubmit", res)
+        
         if (res.type !== "RECEIVE_REVIEW_ERRORS") this.props.toggleCreateReview()
       })
-      // .catch(errs => console.log(errs))
+    
     this.setState(
       {
         title: "",

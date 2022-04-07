@@ -32,7 +32,7 @@ class FurnitureShow extends React.Component {
   }
 
   componentDidUpdate(prevProps) {
-    console.log("prevProps", prevProps)
+    
     if (Object.values(this.props.reviews).length !== Object.values(prevProps.reviews).length) {
       this.props.fetchReviews()
     }
@@ -71,7 +71,7 @@ class FurnitureShow extends React.Component {
   madeReview(userId) {
     if (this.props.currentUser) {
       for (let review in this.props.reviews) {
-        console.log("review", review)
+        
         if (this.props.reviews[review].reviewer_id === this.props.currentUser.id) {
           return true;
         }
@@ -83,7 +83,7 @@ class FurnitureShow extends React.Component {
 
   render() {
     let { furniture } = this.props
-    console.log("show before", furniture)
+   
     if (!furniture) {
       return null;
     } 

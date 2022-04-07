@@ -17,7 +17,7 @@ function Navbar(props) {
   const [signedIn, setSignedIn] = useState(false)
 
   const handleFurnitureDropdown = () => {
-    console.log("hooks", props)
+    
     if (search === true) {
       setSearch(false)
     };

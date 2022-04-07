@@ -5,7 +5,7 @@ import { withRouter } from 'react-router';
 import EditUserForm from './edit_user';
 
 const mapStateToProps = (state) => {
-  console.log("user-edit", state)
+  
   return {
     user: state.entities.users[state.session.id],
     errors: state.errors.users,

@@ -5,7 +5,7 @@ import { REMOVE_CURRENT_USER } from "../actions/session_actions";
 const OrderReducer = (state = {}, action) => {
   Object.freeze(state)
   const nextState = Object.assign({}, state)
-  console.log("order-reducer", action)
+  
 
   switch (action.type) {
     case REMOVE_CURRENT_USER:

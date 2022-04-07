@@ -4,7 +4,7 @@ import { Link } from "react-router-dom"
 function AccountRender(props) {
 
   const profileRender = () => {
-    console.log("profile render", props)
+    
     return (
       <div className="accounts-switch">
 
@@ -38,7 +38,7 @@ function AccountRender(props) {
   }
 
   const renderSwitch = () => {
-    console.log("account render", props)
+    
     switch (props.renderType) {
       case 'profile':
         return (profileRender())

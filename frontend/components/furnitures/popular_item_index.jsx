@@ -17,7 +17,7 @@ class PopularItemsIndex extends React.Component {
       .then(() => 
         {
           const res = this.props.furnitures
-          console.log("promise", res)
+         
 
           let furnituresArr = Object.values(res)
           let temp = [];
@@ -38,7 +38,7 @@ class PopularItemsIndex extends React.Component {
   // componentDidUpdate() {
   //   let furnituresArr = Object.values(this.props.furnitures);
   //   let temp = [];
-  //   // console.log("random", furnituresArr)
+  //  
   //   while(temp.length < 10) {
   //     let random = furnituresArr[Math.floor(Math.random() * furnituresArr.length)]
   //     if (!temp.includes(random)) {
@@ -55,7 +55,7 @@ class PopularItemsIndex extends React.Component {
 
 
   render() {
-    // console.log("popular Items", Object.values(this.props.furnitures))
+    
     if (Object.keys(this.props.furnitures).length < 1) return null;
      
     return (

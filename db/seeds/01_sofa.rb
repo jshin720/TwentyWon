@@ -29,8 +29,8 @@ s1_4 = open("https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/neva/neva
 s1_5 = open("https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/neva/neva5.webp")
 s1_6 = open("https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/neva/neva7.jpeg")
 s1_7 = open("https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/neva/neva8.webp")
-s1_8 = open("https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/neva/neva9.jpeg")
-s1_9 = open("https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/neva/neva10.png")
+s1_8 = open("https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/neva/neva9.png")
+
 
 s1.images.attach(io:s1_0, filename: 'sofa/neva/neva0.webp')
 s1.images.attach(io:s1_1, filename: 'sofa/neva/neva1.png')
@@ -40,8 +40,8 @@ s1.images.attach(io:s1_4, filename: 'sofa/neva/neva4.png')
 s1.images.attach(io:s1_5, filename: 'sofa/neva/neva5.webp')
 s1.images.attach(io:s1_6, filename: 'sofa/neva/neva7.jpeg')
 s1.images.attach(io:s1_7, filename: 'sofa/neva/neva8.webp')
-s1.images.attach(io:s1_8, filename: 'sofa/neva/neva9.jpeg')
-s1.images.attach(io:s1_9, filename: 'sofa/neva/neva10.png')
+s1.images.attach(io:s1_8, filename: 'sofa/neva/neva9.png')
+
 
 
 s2 = Furniture.create({name: "Aria Sofa", 
@@ -159,19 +159,17 @@ s4_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/eli
 s4_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias1.webp')
 s4_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias2.png')
 s4_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias3.png')
-s4_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias4.png')
-s4_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias5.webp')
-s4_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias6.webp')
-s4_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias7.png')
+s4_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias5.webp')
+s4_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias6.webp')
+s4_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/elias/elias7.png')
 
 s4.images.attach(io:s4_0, filename: 'sofa/elias/elias0.png')
 s4.images.attach(io:s4_1, filename: 'sofa/elias/elias1.webp')
 s4.images.attach(io:s4_2, filename: 'sofa/elias/elias2.png')
 s4.images.attach(io:s4_3, filename: 'sofa/elias/elias3.png')
-s4.images.attach(io:s4_4, filename: 'sofa/elias/elias4.png')
-s4.images.attach(io:s4_5, filename: 'sofa/elias/elias5.webp')
-s4.images.attach(io:s4_6, filename: 'sofa/elias/elias6.webp')
-s4.images.attach(io:s4_7, filename: 'sofa/elias/elias7.png')
+s4.images.attach(io:s4_4, filename: 'sofa/elias/elias5.webp')
+s4.images.attach(io:s4_5, filename: 'sofa/elias/elias6.webp')
+s4.images.attach(io:s4_6, filename: 'sofa/elias/elias7.png')
 
 
 
@@ -198,28 +196,24 @@ s5_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea
 s5_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea1.png')
 s5_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea2.png')
 s5_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea3.png')
-s5_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea3.webp')
-s5_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea4.png')
-s5_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea5.webp')
-s5_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea6.webp')
-s5_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea7.webp')
-s5_9 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea8.webp')
-s5_10 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea9.jpeg')
-s5_11 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea10.png')
+s5_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea4.png')
+s5_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea5.webp')
+s5_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea7.webp')
+s5_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea8.webp')
+s5_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea9.jpeg')
+s5_9 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/olea/olea10.png')
 
 
 s5.images.attach(io:s5_0, filename: 'sofa/olea/olea0.png')
 s5.images.attach(io:s5_1, filename: 'sofa/olea/olea1.png')
 s5.images.attach(io:s5_2, filename: 'sofa/olea/olea2.png')
 s5.images.attach(io:s5_3, filename: 'sofa/olea/olea3.png')
-s5.images.attach(io:s5_4, filename: 'sofa/olea/olea3.webp')
-s5.images.attach(io:s5_5, filename: 'sofa/olea/olea4.png')
-s5.images.attach(io:s5_6, filename: 'sofa/olea/olea5.webp')
-s5.images.attach(io:s5_7, filename: 'sofa/olea/olea6.webp')
-s5.images.attach(io:s5_8, filename: 'sofa/olea/olea7.webp')
-s5.images.attach(io:s5_9, filename: 'sofa/olea/olea8.webp')
-s5.images.attach(io:s5_10, filename: 'sofa/olea/olea9.jpeg')
-s5.images.attach(io:s5_11, filename: 'sofa/olea/olea10.png')
+s5.images.attach(io:s5_4, filename: 'sofa/olea/olea4.png')
+s5.images.attach(io:s5_5, filename: 'sofa/olea/olea5.webp')
+s5.images.attach(io:s5_6, filename: 'sofa/olea/olea7.webp')
+s5.images.attach(io:s5_7, filename: 'sofa/olea/olea8.webp')
+s5.images.attach(io:s5_8, filename: 'sofa/olea/olea9.jpeg')
+s5.images.attach(io:s5_9, filename: 'sofa/olea/olea10.png')
 
 
 s6 = Furniture.create({name: "Ziki Sofa", 
@@ -245,25 +239,65 @@ Box dimensions: 86\”W x 39\”D x 32.5\”H',
 
 s6_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki0.webp')
 s6_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki1.webp')
-s6_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki2.webp')
-s6_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki3.png')
-s6_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki4.png')
-s6_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki5.png')
-s6_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki6.webp')
-s6_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki7.webp')
-s6_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki8.webp')
-s6_9 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki9.jpeg')
-s6_10 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki10.jpeg')
+s6_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki3.png')
+s6_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki4.png')
+s6_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki5.png')
+s6_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki6.webp')
+s6_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki7.webp')
+s6_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki8.webp')
+s6_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki9.jpeg')
+s6_9 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/ziki/ziki10.jpeg')
 
 s6.images.attach(io:s6_0, filename: 'sofa/ziki/ziki0.webp')
 s6.images.attach(io:s6_1, filename: 'sofa/ziki/ziki1.webp')
-s6.images.attach(io:s6_2, filename: 'sofa/ziki/ziki2.webp')
-s6.images.attach(io:s6_3, filename: 'sofa/ziki/ziki3.png')
-s6.images.attach(io:s6_4, filename: 'sofa/ziki/ziki4.png')
-s6.images.attach(io:s6_5, filename: 'sofa/ziki/ziki5.png')
-s6.images.attach(io:s6_6, filename: 'sofa/ziki/ziki6.webp')
-s6.images.attach(io:s6_7, filename: 'sofa/ziki/ziki7.webp')
-s6.images.attach(io:s6_8, filename: 'sofa/ziki/ziki8.webp')
-s6.images.attach(io:s6_9, filename: 'sofa/ziki/ziki9.jpeg')
-s6.images.attach(io:s6_10, filename: 'sofa/ziki/ziki10.jpeg')
+s6.images.attach(io:s6_2, filename: 'sofa/ziki/ziki3.png')
+s6.images.attach(io:s6_3, filename: 'sofa/ziki/ziki4.png')
+s6.images.attach(io:s6_4, filename: 'sofa/ziki/ziki5.png')
+s6.images.attach(io:s6_5, filename: 'sofa/ziki/ziki6.webp')
+s6.images.attach(io:s6_6, filename: 'sofa/ziki/ziki7.webp')
+s6.images.attach(io:s6_7, filename: 'sofa/ziki/ziki8.webp')
+s6.images.attach(io:s6_8, filename: 'sofa/ziki/ziki9.jpeg')
+s6.images.attach(io:s6_9, filename: 'sofa/ziki/ziki10.jpeg')
 
+s7 = Furniture.create({name: "Devyn Sofa", 
+  description: "Lush, deep-seat comfort with chilled out, modern lines. Devyn\’s contemporary shape and breezy slipcover create a unique balance that\’s equal parts refined and laid back.
+",
+  highlight:"
+Devyn\'s seat cushions contain three layers: your choice of loose fill (Feather Down or Poly Fill) at the top and bottom, 
+and a \“support layer\” of high-density foam sandwiched between the fill for structure and stability. The fill makes up 40% of the overall cushion, 
+and the foam makes up 60%.
+Our lofty Feather Down is ethically-sourced, and our vegan Poly Fill is designed specifically to mimic the familiar fluff of feathers. 
+We mix a small percentage of vegan poly fiber into the Feather Down fill for a bit of spring.
+",
+  dimension: 'Overall dimensions: 96\"W x 42\"D x 33\"H
+Seat height: 18\”
+Seat width: 87\”
+Seat depth w/ back cushion: 26.5\”
+Seat depth w/o back cushion: 33.5\”
+Arm height: 22.5\"
+Arm width: 4.5\"
+Weight: 189.2 lbs
+Box dimensions: 98\”W x 44\”D x 26\”H',
+ category: "Sofa", color: "Jasmine Rice", price: 2699 })
+
+s7_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn0.png')
+s7_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn1.jpeg')
+s7_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn2.png')
+s7_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn3.png')
+s7_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn4.png')
+s7_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn5.jpeg')
+s7_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn6.webp')
+s7_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn7.webp')
+s7_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn8.webp')
+s7_9 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/sofa/devyn/devyn9.png')
+
+s7.images.attach(io:s7_0, filename: 'sofa/devyn/devyn0.png')
+s7.images.attach(io:s7_1, filename: 'sofa/devyn/devyn1.jpeg')
+s7.images.attach(io:s7_2, filename: 'sofa/devyn/devyn2.png')
+s7.images.attach(io:s7_3, filename: 'sofa/devyn/devyn3.png')
+s7.images.attach(io:s7_4, filename: 'sofa/devyn/devyn4.png')
+s7.images.attach(io:s7_5, filename: 'sofa/devyn/devyn5.jpeg')
+s7.images.attach(io:s7_6, filename: 'sofa/devyn/devyn6.webp')
+s7.images.attach(io:s7_7, filename: 'sofa/devyn/devyn7.webp')
+s7.images.attach(io:s7_8, filename: 'sofa/devyn/devyn8.webp')
+s7.images.attach(io:s7_9, filename: 'sofa/devyn/devyn9.png')
