@@ -41,20 +41,20 @@ class FurnitureIndex extends React.Component {
     const keywordArr = ['sofa', 'sectional', 'chair', 'table', 'chairs', 'sofas', 'sectionals', 'tables']
 
     if (names.length > 0 && !keywordArr.includes(keyword)) {
-      
+
       return (
         <div className="search-result">
           <h1 className="result-number"> {names.length} Search Results </h1>
-          <div className="search-result-index-container" > 
+          <div className="search-result-index-container" >
             <ul className="search-result-ul-container ">
-            {names.map(name => (
-              <FurnitureIndexItem
-                furniture={name}
-                key={name.id}
-              />
-            )
-            )}
-          </ul>
+              {names.map(name => (
+                <FurnitureIndexItem
+                  furniture={name}
+                  key={name.id}
+                />
+              )
+              )}
+            </ul>
           </div>
         </div>
       )
@@ -64,15 +64,15 @@ class FurnitureIndex extends React.Component {
           <h1 className="result-number"> {colors.length} Search Results </h1>
           <div className="search-result-index-container" >
             <ul className="search-result-ul-container ">
-            {colors.map(color => (
-              <FurnitureIndexItem
-                furniture={color}
-                key={color.id}
-              />
+              {colors.map(color => (
+                <FurnitureIndexItem
+                  furniture={color}
+                  key={color.id}
+                />
 
-            )
-            )}
-          </ul>
+              )
+              )}
+            </ul>
           </div>
         </div>
       )
@@ -82,22 +82,24 @@ class FurnitureIndex extends React.Component {
           <h1 className="result-number"> {keywordFilter.length} Search Results </h1>
           <div className="search-result-index-container" >
             <ul className="search-result-ul-container ">
-            {keywordFilter.map(newKeyword => (
-              <FurnitureIndexItem
-                furniture={newKeyword}
-                key={newKeyword.id}
-              />
-            )
-            )}
-          </ul>
+              {keywordFilter.map(newKeyword => (
+                <FurnitureIndexItem
+                  furniture={newKeyword}
+                  key={newKeyword.id}
+                />
+              )
+              )}
+            </ul>
           </div>
         </div>
       )
     } else {
       return (
-        <h1 className="result-number">
-          No Search Results for "{keyword}"
-        </h1>
+        <div className="no-result-page">
+          <h1 className="result-number">
+            No Search Results for "{keyword}"
+          </h1>
+        </div>
       )
     }
   }
@@ -106,9 +108,9 @@ class FurnitureIndex extends React.Component {
   render() {
     let furnitureCategory = this.keywordString(this.props.match.url);
     const notKeyword = this.props.match.params.keyword;
-    
+
     const { sofas, sectionals, tables, chairs, furnitures } = this.props
-  
+
 
     if (furnitureCategory === 'sofa' && !notKeyword) {
       return (
