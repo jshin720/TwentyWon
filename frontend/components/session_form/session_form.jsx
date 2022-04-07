@@ -34,7 +34,8 @@ class SessionForm extends React.Component {
     this.props.action(user);
   }
 
-  handleDemo() {
+  handleDemo(e) {
+    e.preventDefault();
     this.props.action(this.demoUser)
   }
   

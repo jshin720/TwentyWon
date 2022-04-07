@@ -38,7 +38,7 @@ export const login = (user) => (dispatch) => (
     )
 )
 
-export const logout = (userId) => (dispatch) => (
-  SessionApiUtl.logout(userId)
-    .then(() => dispatch(removeCurrentUser(userId)))
+export const logout = () => (dispatch) => (
+  SessionApiUtl.logout()
+    .then((user) => dispatch(removeCurrentUser(user)))
 )
