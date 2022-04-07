@@ -14,12 +14,14 @@ The Nav Bar shows links to the furniture page, cart page, the login page and the
 
 ## User Auth
 - Users can sign in and/or create a new user 
-![alt text](https://github.com/JD-Fermin/pandemonium/blob/main/screenshots/explore.png)
-- Server owners can update the name of their servers.
-- Server owners can also delete their server.
-![alt text](https://github.com/JD-Fermin/pandemonium/blob/main/screenshots/server.png)
-## Channels
-- Server owners can edit, add and delete channels within their own servers.
+![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.20%20AM.png)
+![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.30%20AM.png)
+- User can sign in.
+- Users can also create a new account.
+
+## Furnitures
+- User can browse through the furnitures
+![alt text](https://github.com/JD-Fermin/pandemonium/blob/main/screenshots/channel.png)
 - Members can freely switch between channels within server.
 ![alt text](https://github.com/JD-Fermin/pandemonium/blob/main/screenshots/channel.png)
 ## Live Chat
