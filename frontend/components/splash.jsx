@@ -21,9 +21,12 @@ class Splash extends React.Component {
           <img src="https://cdn.5280.com/2018/11/3.-Sixpenny_Devyn-Sofa.jpg" alt="" />
           <Link to="/furnitures/shopall"><button>Shop Furniture</button></Link>
         </div>
-        {/* <div className="best-selling-furnitures">
+        <div className="best-selling-furnitures">
           <PopularItemIndexContainer  />
-        </div> */}
+        </div>
+        <div className="main-page-picture-container">
+          <img src="https://twenty-won-images.s3.us-east-2.amazonaws.com/qualitypic.png" alt="" />
+        </div>
       </div>
     )
   }

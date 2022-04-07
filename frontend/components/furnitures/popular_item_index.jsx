@@ -22,7 +22,7 @@ class PopularItemsIndex extends React.Component {
           let furnituresArr = Object.values(res)
           let temp = [];
 
-          while(temp.length < 10) {
+          while(temp.length < 7) {
             let random = furnituresArr[Math.floor(Math.random() * furnituresArr.length)]
             if (!temp.includes(random)) {
               temp.push(random)
@@ -60,8 +60,8 @@ class PopularItemsIndex extends React.Component {
      
     return (
         <div className='best-items-container'>
-          <div id="best10-items">
-            <p>Best Selling Items</p>
+          <div id="best7-items">
+            <h1>See what our Customers are buying </h1>
           </div>
           <ul className="best-items">
             {

@@ -1,7 +1,7 @@
-footer {
-/* position: relative; */
-/* bottom: 0; */
-}
+/* footer {
+position: relative;
+bottom: 0;
+} */
 
 .footer-container{
   height: 30vh;
@@ -14,14 +14,16 @@ footer {
 
 .header-footer {
   height: 30%;
-  display: block;
+  display: flex;
   border-bottom: 1px solid lightgray;
+  justify-content: space-around;
 }
 
 .header-footer a {
   position: relative;
-  left: 850px;
+  /* left: 850px; */
   top: 10px;
+  
   text-decoration: none;
 }
 
