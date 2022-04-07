@@ -48,7 +48,7 @@ class OrderItem extends React.Component {
         <p id="furniture-price"> Price: $ {this.state.price * this.state.quantity}.00 </p>
         <div id="buttons-container">
           <div id="quantity-button-container">
-            <button id="quantity-button" onClick={this.subtractQuantity}>
+            <button id="quantity-button" disabled={this.state.quantity < 2} onClick={this.subtractQuantity}>
               <HiIcon.HiOutlineMinus />
             </button>
             <p id="quantity-number"> Qty: {this.state.quantity}</p>
@@ -56,7 +56,7 @@ class OrderItem extends React.Component {
               <HiIcon.HiOutlinePlus />
             </button>
           </div>
-          <button id="remove-item" onClick={() => this.props.deleteOrder(this.state.id)}>Remove</button>
+            <button id="remove-item" onClick={() => this.props.deleteOrder(this.state.id)}>Remove</button>
         </div>
         <p id="shipping-info"> Shipping:
           This product is made to order. Estimated delivery: 14-16 weeks.
