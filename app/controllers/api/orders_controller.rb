@@ -54,6 +54,7 @@ class Api::OrdersController < ApplicationController
   def destroy
     @order = Order.find(params[:id])
     @order.destroy
+    render :show
   end
 
   private

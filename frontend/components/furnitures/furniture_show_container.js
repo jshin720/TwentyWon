@@ -28,7 +28,8 @@ const mSTP = (state, ownProps) => {
     reviews: state.reviews,
     errors: state.errors.reviews,
     userErrors: state.errors.users,
-    users: state.entities.users
+    users: state.entities.users,
+    // orders: state.entities.orders
     // user: state.user[state.session.users.id]
   // furnitures: Object.values(state.entities.furniture)
   })

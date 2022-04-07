@@ -24,10 +24,9 @@ class App extends React.Component {
     super(props)
   }
 
-  // componentDidMount() {
-  //   fetchUser()
-  // }
-
+  newWindowHandleClick = (url) => {
+    window.open(url);
+  }
   // the routes need to imported for lines 18. 19 
   // the route for protectedRoute need to directed to a specific page. 
 
@@ -92,24 +91,21 @@ class App extends React.Component {
 
                 <div className='social-links'>
                   <div className='social-btn flex-center' id="angel-list">
-                    <a href="https://angel.co/u/jeffrey-shin-720">
-                      <SiIcon.SiAngellist className='angel-img' />
-                      {/* <span>/jeffrey-shin-720</span> */}
-                    </a>
+                    <button onClick={() => this.newWindowHandleClick("https://angel.co/u/jeffrey-shin-720")}>
+                      <SiIcon.SiAngellist className='angel-img' /> 
+                    </button>
                   </div>
 
                   <div className='social-btn flex-center' id="linkedin">
-                    <a href="https://www.linkedin.com/in/jeffrey-shin-901752228/">
+                    <button onClick={() => this.newWindowHandleClick("https://www.linkedin.com/in/jeffrey-shin-901752228/")}>
                       <BsIcon.BsLinkedin className='linkedin-img' />
-                      {/* <span>in/jeffrey-shin/</span> */}
-                    </a>
+                  </button>
                   </div>
 
                   <div className='social-btn flex-center' id="github">
-                    <a href="https://github.com/jshin720">
+                    <button onClick={() => this.newWindowHandleClick("https://github.com/jshin720")}>
                     <VscIcon.VscGithub className='gitbhub-img' />
-                    {/* <span>@/jshin720</span> */}
-                    </a>
+                    </button>
                   </div>
                 </div>
 

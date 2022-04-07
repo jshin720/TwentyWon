@@ -129,12 +129,17 @@ body {
 	transition: 1s;
 }
 
+.social-btn button {
+  border: none;
+  background-color: white;
+}
+
 .angel-img, .linkedin-img, .gitbhub-img {
   position: relative;
-  left: 5px;
+  /* left: 5px; */
   top: 5px;
-  height: 40px;
-  width: 40px;
+  height: 38px;
+  width: 38px;
   color: black;
 }
 

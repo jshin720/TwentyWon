@@ -18,6 +18,8 @@ class OrderShow extends React.Component {
     this.props.fetchOrders();
   }
 
+
+
   handleContinueShopping() {
     this.props.handleCartDropdown();
     this.props.history.push('/') //comes from the withrouter - it needs 2 parameters (path, state) - leads to another path with the even state
@@ -28,11 +30,11 @@ class OrderShow extends React.Component {
     this.props.history.push('/cart') //comes from the withrouter - it needs 2 parameters (path, state) - leads to another path with the even state
   };
 
-  orderItems() {
+  orderItems(pennies) {
     // let furniture = this.props.furnitures.furniture_id
 
 
-    let pennies = Object.values(this.props.orders)
+    // let pennies = Object.values(this.props.orders)
 
   
     return (pennies.map((singleFurniture, i) => (
@@ -48,6 +50,8 @@ class OrderShow extends React.Component {
               order={singleFurniture}
               updateOrder={this.props.updateOrder}
               deleteOrder={this.props.deleteOrder}
+              fetchOrders={this.props.fetchOrders}
+              
             />
           </div>
 
@@ -63,14 +67,14 @@ class OrderShow extends React.Component {
   render() {
     if (!this.props.orders) return null;
     if (!this.props.furnitures || Object.keys(this.props.furnitures).length < 1) return null;
-
+    
+   
     let total = 0;
     const allOrders = Object.values(this.props.orders);
 
     allOrders.map((singleOrder) => (
       total += singleOrder.price * singleOrder.quantity
     ))
-    
     return (
       <div id="orders-container">
         <h1 id="order-title">Cart</h1>
@@ -81,7 +85,7 @@ class OrderShow extends React.Component {
           </h1>
           :
           <div>
-            {this.orderItems()}
+            {this.orderItems(allOrders)}
             
             <div id="total-amount-container">
               <p id="subtotal">Subtotal: </p>
