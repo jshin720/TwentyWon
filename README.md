@@ -8,7 +8,7 @@ The site built using the Rails on the backend and React/Redux on the frontend.
 Users are able to sign in and sign up by going to the respective create user page or the login page. 
 The Nav Bar shows links to the furniture page, cart page, the login page and the middle logo leads back to the main page. 
 
-[Live Site](https://https://twentywon.herokuapp.com/#/)
+[Live Site](https://twentywon.herokuapp.com/#/)
 
 # Features
 
