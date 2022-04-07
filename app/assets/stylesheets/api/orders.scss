@@ -1,0 +1,181 @@
+// Place all the styles related to the api::Orders controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#orders-container{
+  min-height: max-content;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 5px;
+  overflow-y: auto;
+  border: 1px solid lightgray;
+}
+
+
+#order-title {
+  height: 50px;
+  max-width: 100%;
+  font-size: 40px;
+  position: relative;
+  // display: flex;
+  // justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  margin: 20px 0px;
+  text-indent: 25px;
+  font-weight: 700;
+}
+
+#total-amount-container {
+  margin: 15px 5px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  font-size: 15px;
+}
+#shipping-notice {
+  margin: 5px ;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#order-furniture-buttons {
+  margin: 20px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#continue-shopping-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  background-color: #FAEBD7;
+}
+
+#checkout-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  background-color: #FAEBD7;
+}
+
+#empty-order {
+  padding: 15px 5px;
+}
+
+// @media screen and (min-width: 610){
+//   .checkout-button {
+//     opacity: 0;
+//   }
+// }
+/*************OrderItems**********/
+
+
+#order-item {
+  height: 200px;
+  max-width: 100%;
+  display: flex;
+  position: relative;
+  margin: 3px;
+  border-bottom: 1px solid lightgray;
+}
+
+#order-item img {
+  height: 125px;
+  width: 150px;
+  position: absolute;
+  top: 10px;
+  left: 10px; 
+  border-radius: 5px;
+  padding: 2px;
+}
+
+#info-order-container {
+  height: max-content;
+  width: 70%;
+  position: absolute;
+  right: 0px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px;
+  // border: 2px solid black;
+}
+
+#furniture-name {
+  font-size: 20px;
+  font-weight: 600;
+  padding: 3px;
+  position: relative;
+  top: -5px;
+}
+
+#furniture-color {
+  font-size: 15px;
+  padding: 3px;
+  position: relative;
+  top: -3px;
+  // left: 5px;
+}
+#furniture-category {
+  font-size: 15px;
+  padding: 3px;
+  position: relative;
+  top: -3px;
+  // left: 5px;
+}
+
+#quantity-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: -17px;
+  // left: 5px;
+  font-size: 15px;
+  padding: 3px;
+  // border: 2px solid black;
+}
+
+#quantity-button-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#buttons-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 20px;
+  justify-content: space-between;
+  margin: 5px 0px;
+}
+
+#quantity-button {
+  border: none;
+  background-color: #f9f9f2; 
+  position: relative;
+  top: 2px;
+}
+
+#quantity-number {
+  position: relative;
+  top: 3px;
+}
+
+#remove-item {
+  border: none;
+  background-color: #f9f9f2;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: underline;
+}
+

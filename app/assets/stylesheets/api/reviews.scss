@@ -1,0 +1,188 @@
+// // Place all the styles related to the api::Reviews controller here.
+// // They will automatically be included in application.css.
+// // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.review-errors-container {
+  display: flex;
+  justify-content: center;
+  color: red;
+  padding: 10px;
+}
+
+
+/************* create review form **********/
+
+
+.create-review-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10px;
+}
+
+.create-review-form h1 {
+  text-align: center;
+  font-size: 1.5em;
+  position: relative;
+  top: 5px;
+  margin-bottom: -5px;
+}
+
+
+.create-review-form form {
+  position: relative;
+  top: 5px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.create-review-form #review-title {
+  position: relative;
+  align-self: center;
+  width: 15vw;
+  height: 3vh;
+  font-size: .8em;
+  margin: 5px;
+  // border: 2px solid black;
+}
+
+.create-review-form textarea {
+  position: relative;
+  align-self: center;
+  width: 20vw;
+  height: 10vh;
+  font-size: 1.0em;
+  margin: 5px;
+  // border: 2px solid black;
+}
+
+
+.create-review-buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+
+/*******stars********/
+
+.stars > label {
+  cursor: pointer;
+}
+
+
+.stars {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  left: -10px;
+  // border: 2px solid black;
+}
+
+label input[type="radio"] {
+  visibility: hidden;
+}
+
+/*********** edit ***************/
+
+.edit-review-details {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 10px;
+  // border: 2px solid black;
+}
+
+.edit-review-details h1 {
+  text-align: center;
+  font-size: 1.2em;
+  position: relative;
+  top: 0px;
+  margin-bottom: -5px;
+  // border: 2px solid black;
+}
+
+
+.edit-review-details form {
+  position: relative;
+  top: 5px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.edit-review-details #edit-title-review {
+  position: relative;
+  align-self: center;
+  width: 15vw;
+  height: 3vh;
+  font-size: .8em;
+  margin: 5px;
+  // border: 2px solid black;
+}
+
+.edit-review-details textarea {
+  position: relative;
+  align-self: center;
+  width: 25vw;
+  height: 10vh;
+  font-size: 1.0em;
+  margin: 5px;
+  // border: 2px solid black;
+}
+
+
+.edit-review-buttons-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+
+/*********** reviews index *************/
+.review-index-container {
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgb(99, 96, 91);
+}
+
+.review-container-details h2{
+  font-size: 1.4em;
+  margin: 10px;
+  font-weight: 900;
+}
+
+.review-container-details .user-rating {
+  margin: 5px;
+}
+
+.review-container-details #user-review-title {
+  margin: 5px;
+  font-size: 1.1em;
+}
+
+.review-container-details #user-review-description {
+  margin-top: 10px;
+  margin-left: 5px;
+  font-size: .9em;
+  padding-bottom: 5px;
+}
+
+.review-item-rating {
+  color: black;
+}
+
+.ex-review-item-rating {
+  color: transparent;
+}
