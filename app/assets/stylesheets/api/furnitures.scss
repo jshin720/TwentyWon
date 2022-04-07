@@ -26,6 +26,7 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: 1px solid ivory;
   border-radius: 5%;
+  background-color: white;
 }
 
 .furniture-information * {
@@ -137,13 +138,14 @@
   top: 35%;
   left: 60%;
   transform: translate(-50%, -50%);
-  font-size: larger;
+  font-size: 23px;
   font-weight: 700;
   text-transform: uppercase;
 }
 
 .type-description {
   position: relative;
+  font-size: 18x;
   top: 110px;
   left: 360px;
   transform: translate(-50%, -50%);
