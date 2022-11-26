@@ -22,4 +22,6 @@ test:
 
 production:
   <<: *default
-  database: twentywon_production
+  url: <%= ENV['DATABASE_URL'] %>
+  # database: twentywon_production
+
