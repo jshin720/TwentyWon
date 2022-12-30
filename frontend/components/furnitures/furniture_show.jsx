@@ -92,34 +92,37 @@ class FurnitureShow extends React.Component {
     
       
     return (
-
-
       <div className="furniture-show-container">
-
         <div className="return-button">
-          <Link className="return-link" to={`/furnitures/${furniture.category}`}> <MdIcon.MdOutlineArrowBackIosNew className='return-icon'/>  Return to {furniture.category}s
+          <Link
+            className="return-link"
+            to={`/furnitures/${furniture.category}`}
+          >
+            {" "}
+            <MdIcon.MdOutlineArrowBackIosNew className="return-icon" /> Return
+            to {furniture.category}s
           </Link>
         </div>
 
-
         <div className="furniture-show-info">
-          
-            < Carousel 
-            className="picture-carousel"
-              furniture={furniture}
-            />
-          
+          <Carousel className="picture-carousel" furniture={furniture} />
+
           <div className="furniture-info">
             <h1 className="furniture-name">{furniture.name} </h1>
-            
+
             <div className="price-container">
-            <p className="furniture-price"> {`$ ${furniture.price}.00`} </p>
-            <p className="furniture-color"> Shown in {furniture.color} </p>
-            <p className="furniture-category">{furniture.category} </p>
-            <p className="furniture-description"> {furniture.description} </p>
+              <p className="furniture-price"> {`$ ${furniture.price}.00`} </p>
+              <p className="furniture-color"> Shown in {furniture.color} </p>
+              <p className="furniture-category">{furniture.category} </p>
+              <p className="furniture-description"> {furniture.description} </p>
             </div>
             <form className="to-orders-container" onSubmit={this.addToOrders}>
-              <select name="quantity" className="orders-quantity-container" value={this.state.quantity} onChange={this.changeQuantityHandler} >
+              <select
+                name="quantity"
+                className="orders-quantity-container"
+                value={this.state.quantity}
+                onChange={this.changeQuantityHandler}
+              >
                 <option value="1"> 1 </option>
                 <option value="2"> 2 </option>
                 <option value="3"> 3 </option>
@@ -130,77 +133,85 @@ class FurnitureShow extends React.Component {
                 <option value="8"> 8 </option>
                 <option value="9"> 9 </option>
               </select>
-              <button className="order-buttons" type="submit" > {`$ ${furniture.price}.00`} -- Add To Cart</button>
+              <button className="order-buttons" type="submit">
+                {" "}
+                {`$ ${furniture.price}.00`} -- Add To Cart
+              </button>
             </form>
           </div>
         </div>
 
         <div className="additional-info-container">
           {/* <div className="temp-div"></div> */}
-          <img src={furniture.photoUrls[furniture.photoUrls.length-1]} alt=""/>
-          <div className='extra-details'>
+          <img
+            src={furniture.photoUrls[furniture.photoUrls.length - 1]}
+            alt=""
+          />
+          <div className="extra-details">
             <h2>Dimensions: </h2>
-            <p className='dimensions'>{furniture.dimension}</p>
-            <br/>
+            <p className="dimensions">{furniture.dimension}</p>
+            <br />
             <h2>Highlights:</h2>
-            <p className='highlights'>{furniture.highlight}</p>
+            <p className="highlights">{furniture.highlight}</p>
           </div>
         </div>
         <div className="delivery-container">
-          <img src="https://twenty-won-images.s3.us-east-2.amazonaws.com/deliverypic.png" alt="" />
+          <img
+            src="https://twentywonfsp-images.s3.amazonaws.com/deliverypic.png"
+            alt="delivery"
+          />
         </div>
 
         <div className="review-section">
-
-          {!this.state.createReview ?
+          {!this.state.createReview ? (
             <div className="review-container">
               <h1>Reviews:</h1>
               <ul>
-                {
-                  Object.values(this.props.reviews).map((review, i) => {
-
-                    return <ReviewItemContainer
+                {Object.values(this.props.reviews).map((review, i) => {
+                  return (
+                    <ReviewItemContainer
                       key={i}
                       review={review}
                       updateReview={this.props.updateReview}
                       deleteReview={this.props.deleteReview}
                       fetchUsers={this.props.fetchUsers}
                     />
-                  })
-                }
+                  );
+                })}
               </ul>
-              {(!this.state.createReview && this.madeReview(this.props.currentUser)) || (!this.state.createReview && !this.props.currentUser) ?
-
-                null
-                :
+              {(!this.state.createReview &&
+                this.madeReview(this.props.currentUser)) ||
+              (!this.state.createReview && !this.props.currentUser) ? null : (
                 <>
-                  <button type="submit" onClick={this.toggleCreateReview} className="material-icons-outlined add-review">WRITE A REVIEW</button>
+                  <button
+                    type="submit"
+                    onClick={this.toggleCreateReview}
+                    className="material-icons-outlined add-review"
+                  >
+                    WRITE A REVIEW
+                  </button>
                 </>
-              }
-
+              )}
             </div>
-
-            :
-
+          ) : (
             <div className="toggle-review">
-              {
-                this.madeReview(this.props.currentUser) || !this.props.currentUser ? null :
-                  <CreateReviewForm
-                    currentUser={this.props.currentUser}
-                    furniture={this.props.furniture}
-                    errors={this.props.errors}
-                    removeReviewErrors={this.props.removeReviewErrors}
-                    createReview={this.props.createReview}
-                    toggleCreateReview={this.toggleCreateReview}
-                    users={this.props.users}
-                  />
-              }
+              {this.madeReview(this.props.currentUser) ||
+              !this.props.currentUser ? null : (
+                <CreateReviewForm
+                  currentUser={this.props.currentUser}
+                  furniture={this.props.furniture}
+                  errors={this.props.errors}
+                  removeReviewErrors={this.props.removeReviewErrors}
+                  createReview={this.props.createReview}
+                  toggleCreateReview={this.toggleCreateReview}
+                  users={this.props.users}
+                />
+              )}
             </div>
-          }
+          )}
         </div>
-
       </div>
-    )
+    );
   }
 
 }
