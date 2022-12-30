@@ -9,7 +9,7 @@ class SessionForm extends React.Component {
       password: ''
     };
     this.demoUser = { 
-      email: 'six@six.com',
+      email: 'six1@six.com',
       password: "sixpenny" 
     };
 
