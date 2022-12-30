@@ -22,15 +22,15 @@ Weight: 83.6 lbs
 Box dimensions: 46\”W x 43\”D x 30\”H',
  category: "Chair", color: "Corn Silk", price: 1499)
 
-c1_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva0.png')
-c1_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva1.webp')
-c1_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva2.png')
-c1_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva3.png')
-c1_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva4.webp')
-c1_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva6.jpeg')
-c1_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva7.jpeg')
-c1_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva8.jpeg')
-c1_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/neva/neva9.png')
+c1_0 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva0.png')
+c1_1 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva1.webp')
+c1_2 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva2.png')
+c1_3 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva3.png')
+c1_4 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva4.webp')
+c1_5 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva6.jpeg')
+c1_6 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva7.jpeg')
+c1_7 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva8.jpeg')
+c1_8 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/neva/neva9.png')
 
 c1.images.attach(io:c1_0, filename: 'chair/neva/neva0.png')
 c1.images.attach(io:c1_1, filename: 'chair/neva/neva1.webp')
@@ -61,15 +61,15 @@ Weight: 77 lbs.
 Box dimensions: 44\"W x 44\"D x 30\"H',
  category: "Chair", color: "Ink Cap", price: 1499 })
 
-c2_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria0.webp')
-c2_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria1.jpeg')
-c2_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria2.webp')
-c2_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria4.webp')
-c2_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria5.webp')
-c2_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria7.webp')
-c2_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria8.webp')
-c2_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria9.webp')
-c2_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/aria/aria10.png')
+c2_0 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria0.webp')
+c2_1 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria1.jpeg')
+c2_2 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria2.webp')
+c2_3 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria4.webp')
+c2_4 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria5.webp')
+c2_5 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria7.webp')
+c2_6 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria8.webp')
+c2_7 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria9.webp')
+c2_8 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/aria/aria10.png')
 
 c2.images.attach(io:c2_0, filename: 'chair/aria/aria0.webp')
 c2.images.attach(io:c2_1, filename: 'chair/aria/aria1.jpeg')
@@ -102,15 +102,15 @@ Weight: 61.6 lbs
 Box dimensions: 38\”W x 35\”D x 28\”H',
  category: "Chair", color: "Jasmine", price: 1499 })
 
-c3_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe0.webp')
-c3_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe1.webp')
-c3_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe2.webp')
-c3_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe3.png')
-c3_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe4.png')
-c3_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe6.jpeg')
-c3_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe7.jpeg')
-c3_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe8.webp')
-c3_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/gabe/gabe9.png')
+c3_0 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe0.webp')
+c3_1 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe1.webp')
+c3_2 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe2.webp')
+c3_3 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe3.png')
+c3_4 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe4.png')
+c3_5 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe6.jpeg')
+c3_6 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe7.jpeg')
+c3_7 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe8.webp')
+c3_8 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/gabe/gabe9.png')
 
 
 c3.images.attach(io:c3_0, filename: 'chair/gabe/gabe0.webp')
@@ -146,15 +146,15 @@ Weight: 68.2 lbs
 Box dimensions: 38\"W x 43\"D x 34\"H',
  category: "Chair", color: "Corn Silk", price: 1499 })
 
-c4_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias0.webp')
-c4_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias1.webp')
-c4_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias2.webp')
-c4_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias3.webp')
-c4_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias4.jpeg')
-c4_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias5.jpeg')
-c4_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias6.jpeg')
-c4_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias7.jpeg')
-c4_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/elias/elias8.png')
+c4_0 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias0.webp')
+c4_1 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias1.webp')
+c4_2 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias2.webp')
+c4_3 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias3.webp')
+c4_4 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias4.jpeg')
+c4_5 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias5.jpeg')
+c4_6 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias6.jpeg')
+c4_7 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias7.jpeg')
+c4_8 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/elias/elias8.png')
 
 
 c4.images.attach(io:c4_0, filename: 'chair/elias/elias0.webp')
@@ -190,15 +190,15 @@ Weight: 66 lbs
 Box dimensions: 44\”W x 37\”D x 30\”H',
  category: "Chair", color: "Corn Silk", price: 1499 })
 
-c5_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia0.webp')
-c5_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia1.webp')
-c5_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia2.webp')
-c5_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia4.jpeg')
-c5_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia5.webp')
-c5_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia6.jpeg')
-c5_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia7.jpeg')
-c5_7 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia8.jpeg')
-c5_8 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/amelia/amelia9.png')
+c5_0 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia0.webp')
+c5_1 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia1.webp')
+c5_2 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia2.webp')
+c5_3 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia4.jpeg')
+c5_4 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia5.webp')
+c5_5 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia6.jpeg')
+c5_6 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia7.jpeg')
+c5_7 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia8.jpeg')
+c5_8 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/amelia/amelia9.png')
 
 
 c5.images.attach(io:c5_0, filename: 'chair/amelia/amelia0.webp')
@@ -238,13 +238,13 @@ Weight: 137 lbs
 Box dimensions: 38\”W x 38\”D x 36.5\”H',
  category: "Chair", color: "Corn Silk", price: 2199 })
 
-c6_0 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/qunicy/qunicy0.webp')
-c6_1 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/qunicy/qunicy1.png')
-c6_2 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/qunicy/qunicy2.png')
-c6_3 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/qunicy/qunicy3.png')
-c6_4 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/qunicy/qunicy4.webp')
-c6_5 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/qunicy/qunicy5.jpeg')
-c6_6 = open('https://twenty-won-images.s3.us-east-2.amazonaws.com/chair/qunicy/qunicy6.png')
+c6_0 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/quincy/qunicy0.webp')
+c6_1 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/quincy/qunicy1.png')
+c6_2 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/quincy/qunicy2.png')
+c6_3 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/quincy/qunicy3.png')
+c6_4 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/quincy/qunicy4.webp')
+c6_5 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/quincy/qunicy5.jpeg')
+c6_6 = open('https://twentywonfsp-images.s3.amazonaws.com/chair/quincy/qunicy6.png')
 
 
 
