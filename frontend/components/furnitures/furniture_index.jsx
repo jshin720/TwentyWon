@@ -116,30 +116,30 @@ class FurnitureIndex extends React.Component {
       return (
         <div className="index-main-container">
           <div className="furniture-index-header-container">
-            <img src="https://cdn.shopify.com/s/files/1/0332/0384/7212/products/neva-sofa-washed-cotton-linen-corn-silk-lifestyle-PDP1-84_2610x.jpg?v=1615479434" className="header-picture" />
+            <img
+              src="https://livinglifesmoments.com/wp-content/uploads/2018/05/winter2018-226.jpg"
+              className="header-picture"
+            />
             <h1>Sofas</h1>
             <div className="intro-container">
               <h2 className="intro">FEELS LIKE HOME</h2>
               <br />
-              <p className="type-description">Luxurious, feather-filled sofas in all-natural, life-friendly fabrics</p>
+              <p className="type-description">
+                Luxurious, feather-filled sofas in all-natural, life-friendly
+                fabrics
+              </p>
             </div>
           </div>
-          <div className="empty-space">
-          </div>
-          <div className="furniture-index-container" >
+          <div className="empty-space"></div>
+          <div className="furniture-index-container">
             <ul className="furniture-ul-container-ul">
-              {
-                this.props.sofas.map(sofa => (
-                  <FurnitureIndexItem
-                    furniture={sofa}
-                    key={sofa.id}
-                  />
-                )
-                )}
+              {this.props.sofas.map((sofa) => (
+                <FurnitureIndexItem furniture={sofa} key={sofa.id} />
+              ))}
             </ul>
           </div>
         </div>
-      )
+      );
     } else if (furnitureCategory === 'sectional' && !notKeyword) {
       return (
         <div className="index-main-container">
@@ -199,28 +199,28 @@ class FurnitureIndex extends React.Component {
       return (
         <div className="index-main-container">
           <div className="furniture-index-header-container">
-            <img src="https://cdn.shopify.com/s/files/1/0332/0384/7212/products/leona-dining-table-lifestyle-pdp1_4edcd692-ce4b-4bfa-bd15-3e4d06c1a81b_2610x.jpg?v=1632967559" className="header-picture" />
+            <img
+              src="https://cdn.thewirecutter.com/wp-content/media/2022/05/sofa-buying-guide-2048px-sixpenny.jpg"
+              className="header-picture"
+            />
             <h1>Tables</h1>
             <div className="intro-container">
               <h2 className="intro">HOLD IT ALL TOGETHER</h2>
-              <p className="type-description">Handmade modern classics, crafted from storied solid woods.</p>
+              <p className="type-description">
+                Handmade modern classics, crafted from storied solid woods.
+              </p>
             </div>
           </div>
           <div className="empty-space"> </div>
-          <div className="furniture-index-container" >
+          <div className="furniture-index-container">
             <ul className="furniture-ul-container-ul">
-              {
-                this.props.tables.map(table => (
-                  <FurnitureIndexItem
-                    furniture={table}
-                    key={table.id}
-                  />
-                )
-                )}
+              {this.props.tables.map((table) => (
+                <FurnitureIndexItem furniture={table} key={table.id} />
+              ))}
             </ul>
           </div>
         </div>
-      )
+      );
     } else if (furnitureCategory === 'shopall' && !notKeyword) {
       return (
         <div className="index-main-container">
@@ -229,7 +229,7 @@ class FurnitureIndex extends React.Component {
             <h1>All Furnitures</h1>
             <div className="intro-container">
               <h2 className="intro">RELAX. REFOCUS.</h2>
-              <p className="type-description">The many shapes of extraordinary comfort, slipcovered in all-natural materials, and crafted to last a lifetime.</p>
+              <p className="type-description">The many shapes of extraordinary comfort, slip covered in all-natural materials, and crafted to last a lifetime.</p>
             </div>
           </div>
           <div className="empty-space">
