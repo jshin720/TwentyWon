@@ -27,6 +27,31 @@ The Nav Bar shows links to the furniture page, cart page, the login page and the
 ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.30.02%20AM.png)
 
 ## Orders
+
+ ```js
+    addToOrders(e) {
+    e.preventDefault();
+
+    if (this.props.currentUser) {
+      let order = { furniture_id: this.props.furniture.id, quantity: this.state.quantity, user_id: this.props.currentUser.id }
+      this.props.createOrder(order)
+    } else {
+      this.props.history.push('/login');
+    }
+  }
+
+
+  madeReview(userId) {
+    if (this.props.currentUser) {
+      for (let review in this.props.reviews) {
+        if (this.props.reviews[review].reviewer_id === this.props.currentUser.id) {
+          return true;
+        }
+      }
+      return false;
+    }
+  }
+```
  - User can add, remove and change the quantity into and out of the cart
  ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.58%20AM.png)
 
