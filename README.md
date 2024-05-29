@@ -17,7 +17,31 @@ The Nav Bar shows links to the furniture page, cart page, the login page and the
 ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.20%20AM.png)
 ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.30%20AM.png)
 - User can sign in.
+  ```rb
+   def create
+    @user = User.find_by_credentials(params[:user][:email], params[:user][:password])
+    puts @user
+    if @user.nil?
+      render json: ['Incorrect email or password.'], status: 401
+    else
+      login(@user)
+      render '/api/users/show'
+    end
+  end
+  ```
 - Users can also create a new account.
+  ```rb
+    def create
+    @user = User.new(user_params)
+    if @user.save 
+      login(@user)
+      render :show
+    else
+      render json: @user.errors.full_messages, status: 406
+      # render json: ["input Username and/or Password"], status: 401
+    end
+  end
+  ```
 
 ## Furnitures
 - User can browse through the furnitures
@@ -27,7 +51,8 @@ The Nav Bar shows links to the furniture page, cart page, the login page and the
 ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.30.02%20AM.png)
 
 ## Orders
-
+ - User can add, remove and change the quantity into and out of the cart
+ ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.58%20AM.png)
  ```js
     addToOrders(e) {
     e.preventDefault();
@@ -39,9 +64,12 @@ The Nav Bar shows links to the furniture page, cart page, the login page and the
       this.props.history.push('/login');
     }
   }
-
-
-  madeReview(userId) {
+```
+## Reviews
+- Users can write, edit and leave reviews for a specific furniture
+![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.06.37%20AM.png)
+```js
+ madeReview(userId) {
     if (this.props.currentUser) {
       for (let review in this.props.reviews) {
         if (this.props.reviews[review].reviewer_id === this.props.currentUser.id) {
@@ -52,12 +80,6 @@ The Nav Bar shows links to the furniture page, cart page, the login page and the
     }
   }
 ```
- - User can add, remove and change the quantity into and out of the cart
- ![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.05.58%20AM.png)
-
-## Reviews
-- Users can write, edit and leave reviews for a specific furniture
-![alt text](https://github.com/jshin720/twentyWon/blob/main/screenshots/Screen%20Shot%202022-04-07%20at%2012.06.37%20AM.png)
 
 ## Technologies Used
 - Ruby 2.7.2
